@@ -69,45 +69,8 @@ const citations = {
 }`
 };
 
-const publications = [...document.querySelectorAll(".publication")];
-const searchInput = document.querySelector("#publication-search");
-const filterButtons = [...document.querySelectorAll(".filter")];
-const resultCount = document.querySelector("#result-count");
-const noResults = document.querySelector("#no-results");
 const toast = document.querySelector("#toast");
-let activeFilter = "all";
 let toastTimer;
-
-function updatePublications() {
-  const query = searchInput.value.trim().toLowerCase();
-  let visible = 0;
-
-  publications.forEach((publication) => {
-    const matchesFilter = activeFilter === "all" || publication.dataset.type === activeFilter;
-    const searchable = `${publication.dataset.search} ${publication.textContent}`.toLowerCase();
-    const matchesSearch = !query || searchable.includes(query);
-    const show = matchesFilter && matchesSearch;
-    publication.hidden = !show;
-    if (show) visible += 1;
-  });
-
-  resultCount.textContent = `Showing ${visible} publication${visible === 1 ? "" : "s"}`;
-  noResults.hidden = visible !== 0;
-}
-
-filterButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    activeFilter = button.dataset.filter;
-    filterButtons.forEach((item) => {
-      const active = item === button;
-      item.classList.toggle("is-active", active);
-      item.setAttribute("aria-pressed", String(active));
-    });
-    updatePublications();
-  });
-});
-
-searchInput.addEventListener("input", updatePublications);
 
 function showToast(message) {
   toast.textContent = message;
@@ -136,8 +99,4 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
       showToast("BibTeX copied");
     }
   });
-});
-
-filterButtons.forEach((button) => {
-  button.setAttribute("aria-pressed", String(button.classList.contains("is-active")));
 });

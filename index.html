@@ -3,22 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102a43">
-  <title>Junru Zhu — Research &amp; Publications</title>
-  <meta name="description" content="Research by Junru Zhu on reliable AI agents, malware graph learning, community detection, efficient retrieval, and medical world models.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Junru Zhu — Publications</title>
+  <meta name="description" content="Publications and research projects by Junru Zhu on reliable AI agents, cybersecurity, graph learning, and medical world models.">
   <link rel="canonical" href="https://junru-zhu.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Junru Zhu — Research &amp; Publications">
-  <meta property="og:description" content="Peer-reviewed papers, arXiv preprints, and public research manuscripts on reliable and secure AI systems.">
+  <meta property="og:title" content="Junru Zhu — Publications">
+  <meta property="og:description" content="Papers and research projects on reliable AI agents, cybersecurity, graph learning, and medical world models.">
   <meta property="og:url" content="https://junru-zhu.github.io/">
   <meta property="og:image" content="https://junru-zhu.github.io/assets/social-card.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Junru Zhu — Research &amp; Publications">
-  <meta name="twitter:description" content="Reliable AI agents, malware graph learning, community detection, efficient retrieval, and medical world models.">
-  <meta name="twitter:image" content="https://junru-zhu.github.io/assets/social-card.png">
 
   <script type="application/ld+json">
   {
@@ -26,381 +23,300 @@
     "@type": "Person",
     "name": "Junru Zhu",
     "url": "https://junru-zhu.github.io/",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0005-1890-2242"
+    },
+    "jobTitle": "Data Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Amazon"
+    },
     "sameAs": [
       "https://scholar.google.com/citations?user=tvZbCiUAAAAJ&hl=en",
       "https://orcid.org/0009-0005-1890-2242",
       "https://arxiv.org/search/?query=Junru+Zhu&searchtype=author",
       "https://github.com/junru-zhu"
-    ],
-    "knowsAbout": [
-      "Reliable AI agents",
-      "Cybersecurity",
-      "Graph machine learning",
-      "Android malware detection",
-      "Evaluation under distribution shift",
-      "Medical world models"
     ]
   }
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#publications">Skip to publications</a>
-
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Junru Zhu home">
-      <span class="brand-mark" aria-hidden="true">JZ</span>
-      <span>Junru Zhu</span>
-    </a>
+    <a class="site-name" href="#top">Junru Zhu</a>
     <nav aria-label="Primary navigation">
       <a href="#publications">Publications</a>
-      <a href="#manuscripts">Manuscripts</a>
-      <a href="#contact">Profiles</a>
+      <a href="#preprints">Preprints</a>
+      <a href="#projects">Projects</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow">Reliable systems · measurable evidence</p>
-        <h1 id="hero-title">Research at the boundary of AI capability and trustworthy behavior.</h1>
-        <p class="hero-lede">
-          I work on reliable and secure AI agents, malware graph learning,
-          community structure, and evaluation under distribution shift.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#publications">Browse publications</a>
-          <a class="button button-secondary" href="publications.bib" download>Download BibTeX</a>
-        </div>
-        <div class="profile-links" aria-label="Research profiles">
-          <a href="https://scholar.google.com/citations?user=tvZbCiUAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="https://orcid.org/0009-0005-1890-2242">ORCID <span aria-hidden="true">↗</span></a>
-          <a href="https://arxiv.org/search/?query=Junru+Zhu&amp;searchtype=author">arXiv <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/junru-zhu">GitHub <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-
-      <aside class="research-index" aria-label="Research index">
-        <div class="index-label">Public research index</div>
-        <div class="index-row">
-          <strong>02</strong>
-          <span>Peer-reviewed<br>papers</span>
-        </div>
-        <div class="index-row">
-          <strong>05</strong>
-          <span>arXiv<br>preprints</span>
-        </div>
-        <div class="index-row">
-          <strong>04</strong>
-          <span>Public project<br>manuscripts</span>
-        </div>
-        <div class="index-topics">
-          <span>AI agents</span>
-          <span>Graph learning</span>
-          <span>Cybersecurity</span>
-          <span>Medical AI</span>
-        </div>
-      </aside>
-    </section>
-
-    <section class="featured" aria-labelledby="featured-title">
-      <div class="featured-number" aria-hidden="true">01</div>
-      <div>
-        <p class="section-kicker">Latest preprint</p>
-        <h2 id="featured-title">Failure-Transparent Agents</h2>
-        <p>
-          A controlled benchmark for whether tool-using language models admit
-          failure instead of reporting unsupported success.
-        </p>
-      </div>
-      <div class="featured-actions">
-        <a href="https://arxiv.org/abs/2609.35732">Read on arXiv <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/junru-zhu/failure-transparent-agents">Code &amp; benchmark <span aria-hidden="true">↗</span></a>
+    <section class="intro">
+      <h1>Junru Zhu</h1>
+      <p class="intro-text">
+        I work on reliable and secure AI systems, Android malware detection,
+        graph learning, and evaluation under distribution shift.
+      </p>
+      <div class="profile-links">
+        <a href="https://scholar.google.com/citations?user=tvZbCiUAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://orcid.org/0009-0005-1890-2242">ORCID</a>
+        <a href="https://arxiv.org/search/?query=Junru+Zhu&amp;searchtype=author">arXiv</a>
+        <a href="https://github.com/junru-zhu">GitHub</a>
+        <a href="publications.bib" download>Download BibTeX</a>
       </div>
     </section>
 
-    <section class="works-section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading">
-        <div>
-          <p class="section-kicker">Published &amp; public</p>
-          <h2 id="publications-title">Publications</h2>
-        </div>
-        <p>
-          Peer-reviewed papers and public preprints. Junru Zhu is highlighted
-          in each author list.
+    <section class="work-section" id="publications">
+      <h2>Peer-reviewed publications</h2>
+
+      <article class="work">
+        <h3>
+          <a href="https://doi.org/10.32604/cmc.2025.073572">
+            A Hybrid Clique-Based Method with Structural Feature Node Extraction for Community Detection in Overlapping Networks
+          </a>
+        </h3>
+        <p class="authors">Sicheng Ma, Lixiang Zhang, Guocai Chen, Zeyu Dai, <strong>Junru Zhu</strong>, Wei Fang</p>
+        <p class="venue"><em>Computers, Materials &amp; Continua</em>, 87(1), 1–10, 2026.</p>
+        <p class="description">
+          Introduces a hybrid method for overlapping community detection that
+          combines maximal-clique initialization, structural feature-node
+          extraction, and MOEA/D. It is relevant to overlapping networks,
+          clique-based representations, and multi-objective community detection.
         </p>
-      </div>
-
-      <div class="publication-tools">
-        <label class="search">
-          <span class="visually-hidden">Search publications</span>
-          <svg aria-hidden="true" viewBox="0 0 24 24">
-            <circle cx="11" cy="11" r="6"></circle>
-            <path d="m16 16 4 4"></path>
-          </svg>
-          <input id="publication-search" type="search" placeholder="Search title, topic, venue…" autocomplete="off">
-        </label>
-        <div class="filters" role="group" aria-label="Filter publications">
-          <button class="filter is-active" type="button" data-filter="all">All</button>
-          <button class="filter" type="button" data-filter="peer-reviewed">Peer-reviewed</button>
-          <button class="filter" type="button" data-filter="preprint">Preprints</button>
+        <div class="work-links">
+          <a href="https://doi.org/10.32604/cmc.2025.073572">DOI</a>
+          <a href="https://junru-zhu.github.io/SFCMOEA/">Project page</a>
+          <button type="button" data-copy="ma2026hybrid">Copy BibTeX</button>
         </div>
-      </div>
+      </article>
 
-      <p class="result-count" id="result-count" aria-live="polite">Showing 7 publications</p>
-
-      <div class="publication-list">
-        <article class="publication" data-type="preprint" data-search="failure transparent agents tool using language models reliable ai agent safety benchmark post failure reporting arxiv icassp">
-          <div class="publication-rail">
-            <span class="publication-year">2026</span>
-            <span class="publication-index">P01</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-preprint">arXiv preprint</span>
-              <span>cs.AI · arXiv:2609.35732</span>
-            </div>
-            <h3>Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models</h3>
-            <p class="authors"><strong>Junru Zhu</strong>, Shiming Xie, Aime Lu Fan Chen, Xiaoqing Ding, Chunxin Tang, Ruoyu Qi, Yulang Fei</p>
-            <p class="summary">A controlled benchmark for auditing unsupported success claims and useful recovery after required tools fail.</p>
-            <div class="tags"><span>AI agents</span><span>Reliability</span><span>Benchmarking</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://arxiv.org/abs/2609.35732">arXiv</a>
-            <a href="https://arxiv.org/pdf/2609.35732">PDF</a>
-            <a href="https://github.com/junru-zhu/failure-transparent-agents">Code</a>
-            <button class="copy-citation" type="button" data-copy="zhu2026fta">Copy BibTeX</button>
-          </div>
-        </article>
-
-        <article class="publication" data-type="preprint" data-search="stress testing structure aware calibration malware graph neural networks type shift malnet tiny cybersecurity arxiv">
-          <div class="publication-rail">
-            <span class="publication-year">2026</span>
-            <span class="publication-index">P02</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-preprint">arXiv preprint</span>
-              <span>cs.CR · arXiv:2609.28517</span>
-            </div>
-            <h3>Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift</h3>
-            <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
-            <p class="summary">Tests support-sensitive calibration errors under malware-type shift and a label-free structural fallback.</p>
-            <div class="tags"><span>Malware</span><span>Graph neural networks</span><span>Calibration</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://arxiv.org/abs/2609.28517">arXiv</a>
-            <a href="https://arxiv.org/pdf/2609.28517">PDF</a>
-            <button class="copy-citation" type="button" data-copy="zhu2026calibration">Copy BibTeX</button>
-          </div>
-        </article>
-
-        <article class="publication" data-type="preprint" data-search="partition matched evaluation community features distribution shift android malware function call graphs graph learning cybersecurity arxiv">
-          <div class="publication-rail">
-            <span class="publication-year">2026</span>
-            <span class="publication-index">P03</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-preprint">arXiv preprint</span>
-              <span>cs.CR · arXiv:2609.25256</span>
-            </div>
-            <h3>Partition-Matched Evaluation of Community Features under Distribution Shift in Android Malware Function-Call Graphs</h3>
-            <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
-            <p class="summary">Uses matched random partitions to test whether community features add shift-stable signal to malware graph classifiers.</p>
-            <div class="tags"><span>Android malware</span><span>Communities</span><span>Distribution shift</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://arxiv.org/abs/2609.25256">arXiv</a>
-            <a href="https://arxiv.org/pdf/2609.25256">PDF</a>
-            <button class="copy-citation" type="button" data-copy="zhu2026partition">Copy BibTeX</button>
-          </div>
-        </article>
-
-        <article class="publication" data-type="preprint" data-search="residual community prototypes reject held out malware families fcg mfd open set recognition cybersecurity arxiv">
-          <div class="publication-rail">
-            <span class="publication-year">2026</span>
-            <span class="publication-index">P04</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-preprint">arXiv preprint</span>
-              <span>cs.CR · arXiv:2609.24980</span>
-            </div>
-            <h3>Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD</h3>
-            <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
-            <p class="summary">Evaluates whether topology-residualized community prototypes improve held-out malware-family rejection.</p>
-            <div class="tags"><span>Malware</span><span>Open-set recognition</span><span>Graph learning</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://arxiv.org/abs/2609.24980">arXiv</a>
-            <a href="https://arxiv.org/pdf/2609.24980">PDF</a>
-            <button class="copy-citation" type="button" data-copy="zhu2026residual">Copy BibTeX</button>
-          </div>
-        </article>
-
-        <article class="publication" data-type="preprint" data-search="leaseguard incumbent preserving admission control privileged llm agents resource ownership cybersecurity arxiv">
-          <div class="publication-rail">
-            <span class="publication-year">2026</span>
-            <span class="publication-index">P05</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-preprint">arXiv preprint</span>
-              <span>cs.CR · arXiv:2609.24077</span>
-            </div>
-            <h3>LeaseGuard: Incumbent-Preserving Admission Control for Privileged LLM Agents</h3>
-            <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
-            <p class="summary">A deterministic admission layer that protects healthy resource incumbents from unauthorized agent preemption.</p>
-            <div class="tags"><span>Privileged agents</span><span>Resource ownership</span><span>Admission control</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://arxiv.org/abs/2609.24077">arXiv</a>
-            <a href="https://arxiv.org/pdf/2609.24077">PDF</a>
-            <button class="copy-citation" type="button" data-copy="zhu2026leaseguard">Copy BibTeX</button>
-          </div>
-        </article>
-
-        <article class="publication" data-type="peer-reviewed" data-search="hybrid clique structural feature node community detection overlapping networks sfmoea moead computers materials continua journal">
-          <div class="publication-rail">
-            <span class="publication-year">2026</span>
-            <span class="publication-index">J01</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-reviewed">Peer-reviewed journal</span>
-              <span>Computers, Materials &amp; Continua · 87(1)</span>
-            </div>
-            <h3>A Hybrid Clique-Based Method with Structural Feature Node Extraction for Community Detection in Overlapping Networks</h3>
-            <p class="authors">Sicheng Ma, Lixiang Zhang, Guocai Chen, Zeyu Dai, <strong>Junru Zhu</strong>, Wei Fang</p>
-            <p class="summary">Combines maximal-clique initialization, structural feature nodes, and MOEA/D for overlapping community detection.</p>
-            <div class="tags"><span>Community detection</span><span>Complex networks</span><span>Evolutionary optimization</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://doi.org/10.32604/cmc.2025.073572">DOI</a>
-            <a href="https://junru-zhu.github.io/SFCMOEA/">Project page</a>
-            <button class="copy-citation" type="button" data-copy="ma2026hybrid">Copy BibTeX</button>
-          </div>
-        </article>
-
-        <article class="publication" data-type="peer-reviewed" data-search="android malware detection deep learning ieee international conference computer communications iccc cybersecurity">
-          <div class="publication-rail">
-            <span class="publication-year">2018</span>
-            <span class="publication-index">C01</span>
-          </div>
-          <div class="publication-body">
-            <div class="publication-meta">
-              <span class="status status-reviewed">Peer-reviewed conference</span>
-              <span>IEEE ICCC 2018 · pp. 2190–2194</span>
-            </div>
-            <h3>Android Malware Detection Based on Deep Learning</h3>
-            <p class="authors">Jianming Zhang, Futai Zou, <strong>Junru Zhu</strong></p>
-            <p class="summary">A deep-learning approach to Android malware detection presented at the IEEE International Conference on Computer and Communications.</p>
-            <div class="tags"><span>Android malware</span><span>Deep learning</span><span>Cybersecurity</span></div>
-          </div>
-          <div class="publication-actions">
-            <a href="https://doi.org/10.1109/CompComm.2018.8781037">DOI</a>
-            <a href="https://github.com/junru-zhu/DroidCC">Resources</a>
-            <button class="copy-citation" type="button" data-copy="zhang2018android">Copy BibTeX</button>
-          </div>
-        </article>
-      </div>
-      <p class="no-results" id="no-results" hidden>No matching publications. Try a broader search.</p>
+      <article class="work">
+        <h3>
+          <a href="https://doi.org/10.1109/CompComm.2018.8781037">
+            Android Malware Detection Based on Deep Learning
+          </a>
+        </h3>
+        <p class="authors">Jianming Zhang, Futai Zou, <strong>Junru Zhu</strong></p>
+        <p class="venue">2018 IEEE 4th International Conference on Computer and Communications (ICCC), 2190–2194.</p>
+        <p class="description">
+          Studies a deep-learning approach for distinguishing Android malware
+          from benign applications. It is relevant to Android security,
+          malware feature learning, and deep-learning-based detection systems.
+        </p>
+        <div class="work-links">
+          <a href="https://doi.org/10.1109/CompComm.2018.8781037">DOI</a>
+          <a href="https://github.com/junru-zhu/DroidCC">Resources</a>
+          <button type="button" data-copy="zhang2018android">Copy BibTeX</button>
+        </div>
+      </article>
     </section>
 
-    <section class="manuscript-section" id="manuscripts" aria-labelledby="manuscripts-title">
-      <div class="section-heading section-heading-light">
-        <div>
-          <p class="section-kicker">Open research</p>
-          <h2 id="manuscripts-title">Public manuscripts &amp; benchmarks</h2>
-        </div>
-        <p>
-          Public working papers and project manuscripts. These are separated
-          from peer-reviewed publications and arXiv records.
+    <section class="work-section" id="preprints">
+      <h2>arXiv preprints</h2>
+
+      <article class="work">
+        <h3>
+          <a href="https://arxiv.org/abs/2609.35732">
+            Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong>, Shiming Xie, Aime Lu Fan Chen, Xiaoqing Ding, Chunxin Tang, Ruoyu Qi, Yulang Fei</p>
+        <p class="venue">arXiv:2609.35732, 2026.</p>
+        <p class="description">
+          Examines what language-model agents say after a required tool fails,
+          separating post-failure reporting from tool selection and environment
+          behavior. The work introduces a controlled benchmark and evaluates a
+          structured evidence contract for reducing unsupported success claims.
         </p>
-      </div>
+        <div class="work-links">
+          <a href="https://arxiv.org/abs/2609.35732">arXiv</a>
+          <a href="https://arxiv.org/pdf/2609.35732">PDF</a>
+          <a href="https://github.com/junru-zhu/failure-transparent-agents">Code and data</a>
+          <button type="button" data-copy="zhu2026fta">Copy BibTeX</button>
+        </div>
+      </article>
 
-      <div class="manuscript-grid">
-        <article class="manuscript">
-          <div class="manuscript-topline"><span>M01</span><span>Public manuscript + benchmark</span></div>
-          <h3>SwarmSafeBench: Evaluating Emergent Coordination and Safety Failures in Multi-Agent Systems</h3>
-          <p class="authors"><strong>Junru Zhu</strong></p>
-          <p>A communication-controlled benchmark for separating scale-related opportunities to fail from effects requiring delivered messages.</p>
-          <div class="manuscript-links">
-            <a href="https://github.com/junru-zhu/swarmsafe-bench/blob/main/paper/main.pdf">Paper PDF</a>
-            <a href="https://github.com/junru-zhu/swarmsafe-bench">Repository</a>
-            <button class="copy-citation copy-citation-dark" type="button" data-copy="zhu2026swarmsafe">Copy BibTeX</button>
-          </div>
-        </article>
+      <article class="work">
+        <h3>
+          <a href="https://arxiv.org/abs/2609.28517">
+            Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
+        <p class="venue">arXiv:2609.28517, 2026.</p>
+        <p class="description">
+          Tests whether community-based graph features improve post-hoc
+          calibration when previously unseen malware types appear. It shows how
+          structural covariates can become unreliable outside their calibration
+          support and evaluates a support-aware fallback.
+        </p>
+        <div class="work-links">
+          <a href="https://arxiv.org/abs/2609.28517">arXiv</a>
+          <a href="https://arxiv.org/pdf/2609.28517">PDF</a>
+          <button type="button" data-copy="zhu2026calibration">Copy BibTeX</button>
+        </div>
+      </article>
 
-        <article class="manuscript">
-          <div class="manuscript-topline"><span>M02</span><span>Public manuscript</span></div>
-          <h3>Token-Budgeted Escalation for Financial Document QA: Cost Is Predictable, Benefit Is the Bottleneck</h3>
-          <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
-          <p>Selective retrieval escalation formulated as finite-batch allocation under a shared token budget.</p>
-          <div class="manuscript-links">
-            <a href="https://github.com/junru-zhu/token-budgeted-escalation-financial-qa/blob/main/paper1_selective_escalation/paper/paper.pdf">Paper PDF</a>
-            <a href="https://github.com/junru-zhu/token-budgeted-escalation-financial-qa">Repository</a>
-            <button class="copy-citation copy-citation-dark" type="button" data-copy="zhu2026token">Copy BibTeX</button>
-          </div>
-        </article>
+      <article class="work">
+        <h3>
+          <a href="https://arxiv.org/abs/2609.25256">
+            Partition-Matched Evaluation of Community Features under Distribution Shift in Android Malware Function-Call Graphs
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
+        <p class="venue">arXiv:2609.25256, 2026.</p>
+        <p class="description">
+          Compares graph-community descriptors with size-matched random
+          partitions across Android malware distribution shifts. Its main
+          contribution is a controlled evaluation protocol for determining
+          whether mesoscopic structure provides genuinely shift-stable signal.
+        </p>
+        <div class="work-links">
+          <a href="https://arxiv.org/abs/2609.25256">arXiv</a>
+          <a href="https://arxiv.org/pdf/2609.25256">PDF</a>
+          <button type="button" data-copy="zhu2026partition">Copy BibTeX</button>
+        </div>
+      </article>
 
-        <article class="manuscript manuscript-pending">
-          <div class="manuscript-topline"><span>M03</span><span>Project draft · metadata pending</span></div>
-          <h3>Medical World Models: From Patient-State Representation to Simulation and Clinical Decision Support</h3>
-          <p class="authors">Author metadata pending in the public manuscript.</p>
-          <p>A narrative survey organizing medical world models by state, dynamics, action conditioning, rollout, decision support, and matched evidence.</p>
-          <div class="manuscript-links">
-            <a href="https://github.com/junru-zhu/medical-world-model-research/blob/main/output/pdf/medical-world-models-survey-arxiv.pdf">Draft PDF</a>
-            <a href="https://github.com/junru-zhu/medical-world-model-research">Project repository</a>
-          </div>
-        </article>
+      <article class="work">
+        <h3>
+          <a href="https://arxiv.org/abs/2609.24980">
+            Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
+        <p class="venue">arXiv:2609.24980, 2026.</p>
+        <p class="description">
+          Evaluates residual community prototypes for recognizing and rejecting
+          malware families that were absent during training. The results
+          distinguish changes to known-family geometry from a stable unknown
+          margin and motivate matched controls and operational thresholds.
+        </p>
+        <div class="work-links">
+          <a href="https://arxiv.org/abs/2609.24980">arXiv</a>
+          <a href="https://arxiv.org/pdf/2609.24980">PDF</a>
+          <button type="button" data-copy="zhu2026residual">Copy BibTeX</button>
+        </div>
+      </article>
 
-        <article class="manuscript manuscript-pending">
-          <div class="manuscript-topline"><span>M04</span><span>Anonymous draft · authorship pending</span></div>
-          <h3>Beyond One-Step Error: Free-Running Evaluation of ICU Chart-Process World Models Across Cohorts</h3>
-          <p class="authors">Anonymous project draft; author confirmation remains pending.</p>
-          <p>A capability-matched evaluation of free-running ICU chart-process forecasting across internal and external cohorts.</p>
-          <div class="manuscript-links">
-            <a href="https://github.com/junru-zhu/medical-world-model-research/blob/main/output/pdf/medical-world-model-ieee.pdf">Draft PDF</a>
-            <a href="https://github.com/junru-zhu/medical-world-model-research">Project repository</a>
-          </div>
-        </article>
-      </div>
+      <article class="work">
+        <h3>
+          <a href="https://arxiv.org/abs/2609.24077">
+            LeaseGuard: Incumbent-Preserving Admission Control for Privileged LLM Agents
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
+        <p class="venue">arXiv:2609.24077, 2026.</p>
+        <p class="description">
+          Introduces deterministic admission control to prevent privileged
+          agents from displacing healthy owners of files, processes, sockets,
+          locks, or capacity. It is relevant to agent safety, resource
+          governance, and systems that mediate high-impact agent actions.
+        </p>
+        <div class="work-links">
+          <a href="https://arxiv.org/abs/2609.24077">arXiv</a>
+          <a href="https://arxiv.org/pdf/2609.24077">PDF</a>
+          <button type="button" data-copy="zhu2026leaseguard">Copy BibTeX</button>
+        </div>
+      </article>
     </section>
 
-    <section class="profile-section" id="contact" aria-labelledby="profile-title">
-      <div>
-        <p class="section-kicker">Research profiles</p>
-        <h2 id="profile-title">Follow the work</h2>
-      </div>
-      <div class="profile-directory">
-        <a href="https://scholar.google.com/citations?user=tvZbCiUAAAAJ&amp;hl=en">
-          <span>Google Scholar</span>
-          <small>Citations and indexed works</small>
-          <strong aria-hidden="true">↗</strong>
-        </a>
-        <a href="https://orcid.org/0009-0005-1890-2242">
-          <span>ORCID</span>
-          <small>Verified researcher identity</small>
-          <strong aria-hidden="true">↗</strong>
-        </a>
-        <a href="https://arxiv.org/search/?query=Junru+Zhu&amp;searchtype=author">
-          <span>arXiv</span>
-          <small>Open preprints</small>
-          <strong aria-hidden="true">↗</strong>
-        </a>
-        <a href="https://github.com/junru-zhu">
-          <span>GitHub</span>
-          <small>Code, data, and research artifacts</small>
-          <strong aria-hidden="true">↗</strong>
-        </a>
-      </div>
+    <section class="work-section" id="projects">
+      <h2>Research projects and public manuscripts</h2>
+      <p class="section-note">
+        These works are public research artifacts but are listed separately
+        from peer-reviewed papers and arXiv preprints.
+      </p>
+
+      <article class="work">
+        <h3>
+          <a href="https://github.com/junru-zhu/swarmsafe-bench">
+            SwarmSafeBench: Evaluating Emergent Coordination and Safety Failures in Multi-Agent Systems
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong></p>
+        <p class="venue">Public manuscript and benchmark, 2026.</p>
+        <p class="description">
+          Varies agent count and communication topology to separate additional
+          opportunities to fail from effects caused by delivered messages. The
+          release includes a simulator, exact scoring, model traces,
+          leaderboards, an audit packet, and the paper.
+        </p>
+        <div class="work-links">
+          <a href="https://github.com/junru-zhu/swarmsafe-bench/blob/main/paper/main.pdf">Paper PDF</a>
+          <a href="https://github.com/junru-zhu/swarmsafe-bench">Repository</a>
+          <button type="button" data-copy="zhu2026swarmsafe">Copy BibTeX</button>
+        </div>
+      </article>
+
+      <article class="work">
+        <h3>
+          <a href="https://github.com/junru-zhu/token-budgeted-escalation-financial-qa">
+            Token-Budgeted Escalation for Financial Document QA: Cost Is Predictable, Benefit Is the Bottleneck
+          </a>
+        </h3>
+        <p class="authors"><strong>Junru Zhu</strong>, Yixin Yang, Xiaoqing Ding, Ruoyu Qi</p>
+        <p class="venue">Public manuscript and research artifacts, 2026.</p>
+        <p class="description">
+          Formulates selective retrieval escalation as allocation under a
+          shared token budget for financial-document question answering. The
+          study finds that additional-call cost is predictable, while
+          query-specific benefit remains the main allocation bottleneck.
+        </p>
+        <div class="work-links">
+          <a href="https://github.com/junru-zhu/token-budgeted-escalation-financial-qa/blob/main/paper1_selective_escalation/paper/paper.pdf">Paper PDF</a>
+          <a href="https://github.com/junru-zhu/token-budgeted-escalation-financial-qa">Repository</a>
+          <button type="button" data-copy="zhu2026token">Copy BibTeX</button>
+        </div>
+      </article>
+
+      <article class="work">
+        <h3>
+          <a href="https://github.com/junru-zhu/medical-world-model-research">
+            Medical World Models: From Patient-State Representation to Simulation and Clinical Decision Support
+          </a>
+        </h3>
+        <p class="authors">Author metadata is pending in the public manuscript.</p>
+        <p class="venue">Public narrative-survey draft, 2026.</p>
+        <p class="description">
+          Organizes medical world models around state representation, dynamics,
+          action conditioning, rollout, and decision support. It also maps
+          increasingly strong model capabilities to the evidence required for
+          credible clinical claims.
+        </p>
+        <div class="work-links">
+          <a href="https://github.com/junru-zhu/medical-world-model-research/blob/main/output/pdf/medical-world-models-survey-arxiv.pdf">Draft PDF</a>
+          <a href="https://github.com/junru-zhu/medical-world-model-research">Repository</a>
+        </div>
+      </article>
+
+      <article class="work">
+        <h3>
+          <a href="https://github.com/junru-zhu/medical-world-model-research">
+            Beyond One-Step Error: Free-Running Evaluation of ICU Chart-Process World Models Across Cohorts
+          </a>
+        </h3>
+        <p class="authors">Anonymous project draft; author confirmation remains pending.</p>
+        <p class="venue">Public research draft, 2026.</p>
+        <p class="description">
+          Evaluates free-running forecasts of ICU chart values and measurement
+          masks across internal and external cohorts. The comparison covers
+          short- and long-horizon accuracy, uncertainty, chart-state
+          constraints, and cross-cohort transport.
+        </p>
+        <div class="work-links">
+          <a href="https://github.com/junru-zhu/medical-world-model-research/blob/main/output/pdf/medical-world-model-ieee.pdf">Draft PDF</a>
+          <a href="https://github.com/junru-zhu/medical-world-model-research">Repository</a>
+        </div>
+      </article>
     </section>
   </main>
 
   <footer>
-    <p>Junru Zhu · Research &amp; Publications</p>
-    <p>Publication status last reviewed September 30, 2026.</p>
+    <span>Junru Zhu</span>
+    <span>Publication status reviewed September 30, 2026.</span>
   </footer>
 
   <div class="toast" id="toast" role="status" aria-live="polite">BibTeX copied</div>
